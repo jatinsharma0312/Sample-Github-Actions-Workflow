@@ -5,7 +5,7 @@ name: "Hello world workflow"
 on: 
     push:
         branches:
-            - master
+            - main
             - production 
 
 jobs:
@@ -15,3 +15,5 @@ jobs:
             - name: "Print hello world"
                run: echo "hello world"
 
+
+               
